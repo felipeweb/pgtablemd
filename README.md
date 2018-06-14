@@ -4,7 +4,7 @@ A command line tool that generates Markdown documentation for Postgres tables in
 
 ## Why I fork the project
 
-The main project seems dead and the of `psycopg2` has a bug with newest postgreSQL so I update version to `2.7.1` to fix details https://github.com/psycopg/psycopg2/issues/594
+The main project seems dead and the version of `psycopg2` has a bug with newest postgreSQL so I update version to `2.7.1` to fix details https://github.com/psycopg/psycopg2/issues/594
 
 ## Installation
 ```
