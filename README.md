@@ -8,7 +8,8 @@ The main project seems dead and the version of `psycopg2` has a bug with newest 
 
 ## Installation
 ```
-pip install pg-table-markdown
+git clone git@github.com:felipeweb/pgtablemd.git && cd pgtablemd
+pip install .
 ```
 
 _Note:_ Since `pg-table-markdown` is intended to connect to Postgres databases, it has a dependedncy on `psycopg2`. However, `psycopg2` includes compiled C modules, and therefore may require compiling from source if it's not already installed. Installing via `pip` will require `python-dev` and `libpq-dev`. `psycopg2` maintainers generally recommend [installing from binary](http://initd.org/psycopg/docs/install.html#install-from-package) instead.
